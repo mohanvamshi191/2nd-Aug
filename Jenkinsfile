@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Master') {
+    stage('master') {
       when {
         branch 'master'
       }
@@ -10,7 +10,7 @@ pipeline {
       }
     }
     stage('Branch') {
-      when{
+      when {
         branch 'Develop'
       }
       steps {
