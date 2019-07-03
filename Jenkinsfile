@@ -14,7 +14,7 @@ pipeline {
         branch 'Develop'
       }
       steps {
-        echo 'Run tests'
+        echo 'Run the exact tests'
       }
     }
   }
